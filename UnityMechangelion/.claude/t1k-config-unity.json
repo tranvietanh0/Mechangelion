@@ -1,0 +1,29 @@
+{
+  "registryVersion": 1,
+  "priority": 90,
+  "kit": "unity",
+  "repos": {
+    "primary": "The1Studio/theonekit-unity",
+    "mcp": "The1Studio/unity-mcp"
+  },
+  "features": {
+    "mcp": true,
+    "playMode": true,
+    "batchMode": true
+  },
+  "extraCommands": [
+    "t1k-scene",
+    "t1k-playtest",
+    "t1k-balance",
+    "t1k-profile",
+    "t1k-milestone",
+    "t1k-wiki",
+    "t1k-sync"
+  ],
+  "_origin": {
+    "kit": "theonekit-unity",
+    "repository": "The1Studio/theonekit-unity",
+    "module": null,
+    "protected": false
+  }
+}

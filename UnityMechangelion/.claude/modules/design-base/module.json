@@ -1,0 +1,72 @@
+{
+  "name": "design-base",
+  "version": "1.0.0",
+  "kit": "theonekit-designer",
+  "description": "Core design skills: GDD, game feel, balance tuning, mobile design fundamentals",
+  "required": true,
+  "dependencies": {},
+  "skills": [
+    "game-design-document",
+    "game-feel-juice",
+    "game-balance-tools",
+    "game-mobile-design"
+  ],
+  "agents": [],
+  "activation": {
+    "sessionBaseline": [
+      "game-design-document",
+      "game-feel-juice",
+      "game-balance-tools",
+      "game-mobile-design"
+    ],
+    "mappings": [
+      {
+        "keywords": [
+          "feel",
+          "juice",
+          "feedback",
+          "shake"
+        ],
+        "skills": [
+          "game-feel-juice"
+        ]
+      },
+      {
+        "keywords": [
+          "balance",
+          "tuning",
+          "stats"
+        ],
+        "skills": [
+          "game-balance-tools"
+        ]
+      },
+      {
+        "keywords": [
+          "mobile",
+          "session",
+          "retention"
+        ],
+        "skills": [
+          "game-mobile-design"
+        ]
+      },
+      {
+        "keywords": [
+          "GDD",
+          "game design document",
+          "design doc"
+        ],
+        "skills": [
+          "game-design-document"
+        ]
+      }
+    ]
+  },
+  "_origin": {
+    "kit": "theonekit-designer",
+    "repository": "The1Studio/theonekit-designer",
+    "module": "design-base",
+    "protected": false
+  }
+}

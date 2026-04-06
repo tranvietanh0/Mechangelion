@@ -1,0 +1,78 @@
+{
+  "registryVersion": 1,
+  "kitName": "theonekit-core",
+  "priority": 10,
+  "repos": {
+    "primary": "The1Studio/theonekit-core"
+  },
+  "description": "Core layer — always available. No engine-specific context required.",
+  "context": {
+    "requiredPaths": [],
+    "requiredFeatures": [],
+    "description": "Core commands run in any context"
+  },
+  "features": {
+    "executionTrace": true,
+    "telemetry": true,
+    "autoUpdate": true
+  },
+  "telemetry": {
+    "cloud": {
+      "enabled": true,
+      "endpoint": "https://t1k-telemetry.tuha.workers.dev/ingest",
+      "auth": "github-token",
+      "org": "The1Studio",
+      "maxPromptLength": 2000,
+      "retentionDays": 90
+    }
+  },
+  "mcp": {
+    "required": [
+      {
+        "name": "github",
+        "purpose": "GitHub issue/PR management for triage, sync-back, issue reporting",
+        "installCmd": "claude mcp add github"
+      },
+      {
+        "name": "context7",
+        "purpose": "Library/framework documentation lookup for planning and implementation",
+        "installCmd": "claude mcp add context7 --transport http -- https://mcp.context7.com/mcp"
+      }
+    ],
+    "recommended": [
+      {
+        "name": "sequential-thinking",
+        "purpose": "Structured step-by-step analysis for problem-solving when stuck",
+        "installCmd": "claude mcp add sequential-thinking -- npx -y @modelcontextprotocol/server-sequential-thinking"
+      },
+      {
+        "name": "memory",
+        "purpose": "Cross-session knowledge persistence via knowledge graph",
+        "installCmd": "claude mcp add memory -- npx -y @modelcontextprotocol/server-memory"
+      }
+    ],
+    "optional": [
+      {
+        "name": "serena",
+        "purpose": "Semantic code navigation (go-to-definition, find-usages, symbol overview)",
+        "installCmd": "claude mcp add serena -- serena start-mcp-server --context ide-assistant --enable-web-dashboard false"
+      },
+      {
+        "name": "playwright",
+        "purpose": "Browser automation for E2E testing and visual regression",
+        "installCmd": "claude mcp add playwright -- npx @playwright/mcp@latest --headless"
+      },
+      {
+        "name": "chrome-devtools",
+        "purpose": "Browser DevTools for console, network, and performance analysis",
+        "installCmd": "claude mcp add chrome-devtools -- npx -y chrome-devtools-mcp@latest"
+      }
+    ]
+  },
+  "_origin": {
+    "kit": "theonekit-core",
+    "repository": "The1Studio/theonekit-core",
+    "module": null,
+    "protected": true
+  }
+}

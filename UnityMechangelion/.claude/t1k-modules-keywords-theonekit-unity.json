@@ -1,0 +1,151 @@
+{
+  "_generated": "2026-03-28T12:02:52.825Z",
+  "_kitName": "theonekit-unity",
+  "_moduleCount": 13,
+  "keywords": {
+    "unity-base": [
+      "addressables",
+      "asset",
+      "code",
+      "config",
+      "conventions",
+      "creator",
+      "game",
+      "hierarchy",
+      "hunter",
+      "input",
+      "localization",
+      "management",
+      "mcp",
+      "monobehaviour",
+      "patterns",
+      "pivot",
+      "pro",
+      "save",
+      "scene",
+      "skill",
+      "system",
+      "text",
+      "tool"
+    ],
+    "dots-core": [
+      "architecture",
+      "buffer",
+      "burst",
+      "command",
+      "components",
+      "core",
+      "dots",
+      "ecs",
+      "enableable",
+      "entity",
+      "google",
+      "jobs",
+      "memorypack",
+      "performance",
+      "protobuf",
+      "subscene",
+      "zlinq",
+      "zstring"
+    ],
+    "dots-combat": [
+      "dots",
+      "physics",
+      "puzzle",
+      "rpg"
+    ],
+    "dots-nav": [
+      "agents",
+      "battlefield",
+      "dots",
+      "navigation"
+    ],
+    "dots-ai": [
+      "bdp",
+      "behavior",
+      "designer",
+      "formations",
+      "movement",
+      "pack",
+      "pro",
+      "tactical"
+    ],
+    "rendering": [
+      "amplify",
+      "animation",
+      "baking",
+      "cinemachine",
+      "dots",
+      "fantasy",
+      "framework",
+      "generic",
+      "graph",
+      "graphics",
+      "impostors",
+      "isometric",
+      "knights",
+      "light",
+      "optimization",
+      "perspective",
+      "polygon",
+      "probuilder",
+      "rivals",
+      "shader",
+      "shadow",
+      "sideview",
+      "synty",
+      "terrain",
+      "toon",
+      "topdown",
+      "urp",
+      "vfx"
+    ],
+    "ui": [
+      "mobile",
+      "toolkit",
+      "ugui"
+    ],
+    "mobile": [
+      "mobile"
+    ],
+    "audio": [
+      "audio"
+    ],
+    "animation": [
+      "animation",
+      "litmotion"
+    ],
+    "networking": [
+      "netcode"
+    ],
+    "testing": [
+      "code",
+      "coverage",
+      "dots",
+      "runtime",
+      "testing",
+      "unit",
+      "validator",
+      "workflow"
+    ],
+    "editor": [
+      "balance",
+      "dots",
+      "grid",
+      "inventory",
+      "milestone",
+      "playtest",
+      "profile",
+      "profiling",
+      "scene",
+      "sync",
+      "wiki"
+    ]
+  },
+  "_origin": {
+    "kit": "theonekit-unity",
+    "repository": "The1Studio/theonekit-unity",
+    "module": null,
+    "protected": false
+  }
+}

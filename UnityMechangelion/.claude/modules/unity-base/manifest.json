@@ -1,0 +1,22 @@
+{
+  "module": "unity-base",
+  "kit": "theonekit-unity",
+  "generatedBy": "release-action",
+  "generatedAt": "2026-03-28T12:02:52.988Z",
+  "files": [
+    "skills/unity-code-conventions",
+    "skills/unity-monobehaviour",
+    "skills/unity-scene-management",
+    "skills/unity-game-patterns",
+    "skills/unity-pivot-hierarchy",
+    "skills/unity-input-system",
+    "skills/unity-addressables",
+    "skills/unity-save-system",
+    "skills/unity-localization",
+    "skills/unity-text-config",
+    "skills/unity-mcp-skill",
+    "skills/unity-mcp-tool-creator",
+    "skills/asset-hunter-pro",
+    "t1k-activation-unity-base.json"
+  ]
+}

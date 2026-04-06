@@ -1,0 +1,66 @@
+{
+  "_generated": "2026-03-28T11:53:37.424Z",
+  "_kitName": "theonekit-designer",
+  "_moduleCount": 7,
+  "keywords": {
+    "design-base": [
+      "balance",
+      "design",
+      "document",
+      "feel",
+      "game",
+      "juice",
+      "mobile",
+      "tools"
+    ],
+    "design-ux": [
+      "animation",
+      "design",
+      "game",
+      "visual",
+      "wireframe"
+    ],
+    "design-rpg": [
+      "based",
+      "design",
+      "game",
+      "narrative",
+      "quest",
+      "rpg",
+      "turn",
+      "worldbuilding"
+    ],
+    "design-economy": [
+      "design",
+      "economy",
+      "game",
+      "offering",
+      "shop"
+    ],
+    "design-systems": [
+      "combos",
+      "design",
+      "game",
+      "generation",
+      "procedural",
+      "roguelike",
+      "synergy"
+    ],
+    "design-puzzle": [
+      "design",
+      "game",
+      "puzzle"
+    ],
+    "design-level": [
+      "design",
+      "game",
+      "level"
+    ]
+  },
+  "_origin": {
+    "kit": "theonekit-designer",
+    "repository": "The1Studio/theonekit-designer",
+    "module": null,
+    "protected": false
+  }
+}

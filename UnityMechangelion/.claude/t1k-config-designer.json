@@ -1,0 +1,18 @@
+{
+  "registryVersion": 1,
+  "priority": 50,
+  "kitName": "theonekit-designer",
+  "repos": {
+    "primary": "The1Studio/theonekit-designer"
+  },
+  "features": {
+    "mcp": false
+  },
+  "extraCommands": [],
+  "_origin": {
+    "kit": "theonekit-designer",
+    "repository": "The1Studio/theonekit-designer",
+    "module": null,
+    "protected": false
+  }
+}

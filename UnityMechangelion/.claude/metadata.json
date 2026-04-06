@@ -1,0 +1,570 @@
+{
+  "kits": {
+    "unity": {
+      "version": "v1.9.0",
+      "installedAt": "2026-04-06T15:11:55.035Z",
+      "files": [
+        {
+          "path": "agents/brainstormer.md",
+          "checksum": "f4d3a2dfb65e6c70cdf9f0deaad1cc26146579de57150ea1da12f29f93132600",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.027Z"
+        },
+        {
+          "path": "agents/dots-debugger.md",
+          "checksum": "3c30eaf6e61b65995b34c73e1df660ce7fa9b72d626992884404845c63c6e0a0",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.027Z"
+        },
+        {
+          "path": "agents/dots-environment.md",
+          "checksum": "cb2a97f7c21362693aa889e830daf464d7c58c895caaf86d314ac32dcbcf3f34",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "agents/dots-implementer.md",
+          "checksum": "fa81438c7375cee6acbec9d0e7614f858aee03227be4011e21f83cfc19b4b069",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "agents/dots-optimizer.md",
+          "checksum": "437e1a51f4b46e5ce3eb8af78cd8b2a9c7ebef313c40d5e1a45e4322b9d20bc3",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "agents/dots-reviewer.md",
+          "checksum": "42c0f5bbf9289253d8f056c1566c88e36c06b39dfaa08f527ad84a1566c16a1a",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.027Z"
+        },
+        {
+          "path": "agents/dots-shader.md",
+          "checksum": "ac9adfa5151e060a5573071ebcf450e9970792d3e48b4f00c5a29f4644ed3b86",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "agents/dots-tester.md",
+          "checksum": "52bdb036b1b9821ee4faafb87f08b4cb53935852b8dd8815b22cc41fde3aee9f",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "agents/dots-validator.md",
+          "checksum": "74e31ae4d940b50059188c0307400c3c96c3b6e566e29cee21699b9b2c651183",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "agents/unity-developer.md",
+          "checksum": "feeecd162d8661573fc999e7290877c2af7e21101025f4887987d5f53475ae03",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "agents/unity-optimizer.md",
+          "checksum": "47a8625bc8e426a3469b25e3d37797236b34f4aea3454cbf045986366a7077d4",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "agents/unity-ui-developer.md",
+          "checksum": "4cbf7517b54dcf72bc37fd0367d9335ae949b97282577a2e148851d7bd4279e3",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "metadata.json",
+          "checksum": "cb6f0330bde8b152878a8f52a8d03349b17fa70960a17ee64917420d5bb61a01",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "modules/unity-base/manifest.json",
+          "checksum": "c618bd44ad04d86ede3719840c7dd9f8fedc139f0dee5bf254f951b9b5a47685",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "modules/unity-base/module.json",
+          "checksum": "48651b8283f9a7baae7180cca27bf8a293eea663a7ece18c1ecec9bcb70ee750",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/asset-hunter-pro/references/api-reference.md",
+          "checksum": "dfec3d62cfa7e7c1100bf4652b38b8260659bedcc1312902f7fc8f6ed0815731",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/asset-hunter-pro/references/gotchas.md",
+          "checksum": "11164896b70b3c496191fa699351cfea9f95e230edaee7a4fbb1de81d51c6693",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/asset-hunter-pro/references/workflow-guide.md",
+          "checksum": "d34a81f1361f8f5e208ab651eae74e20d90deeba46c29ce2f6df5dbb13db8d80",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/asset-hunter-pro/SKILL.md",
+          "checksum": "543883aed30a6a220ac72a9cb3ab4f58d5dbb9e78b7798ba595b4a97e0583637",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/unity-addressables/SKILL.md",
+          "checksum": "430d02d9d59653e0740db1a950f3a27f79956df9a1d7aeba13b925dae8deb65c",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/unity-code-conventions/references/anti-patterns.md",
+          "checksum": "059d4c2cc15dec8cca722f02fb8369c4c1d840083cb4538e8c19279b1ee158ea",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/unity-code-conventions/references/constants-patterns.md",
+          "checksum": "cb25b80a401fbf863b563007961a08317af8e941af616529c9354bf8d495f57c",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/unity-code-conventions/SKILL.md",
+          "checksum": "b43d15b9ee811804046b1e497e34a7424a4058ca8a7ac1496e05056d4e36d3fd",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/unity-game-patterns/references/core-patterns.md",
+          "checksum": "362c9afe3fb50ec8b175c16beb2359f9c8e14ee217b916624b43b9e041255ba1",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-game-patterns/references/data-persistence.md",
+          "checksum": "342efa6471db781fe3c07e7e3dd2fbcb3b253b0f71cd38876233fc9b0eb28a9e",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-game-patterns/references/game-systems.md",
+          "checksum": "b2c91bf525238f8a8765c62f3bead9cc18702c5a971d74ceb61363e2d63e8e43",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-game-patterns/references/mobile-optimization.md",
+          "checksum": "a0c8ed9543c3f9810639efd0f68c2a7d7594a093df1796cbd87c493b9e9508c3",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-game-patterns/references/mobile-setup.md",
+          "checksum": "9c726b6ed09b12f94babdcb5a1dcf570d6e2f1d48011a4cfd49dfe95e6acc6c9",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-game-patterns/SKILL.md",
+          "checksum": "dd828dbc370a551381e4779acf9124aa651029aeceff687f55519d169f3bbbf4",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.028Z"
+        },
+        {
+          "path": "skills/unity-input-system/references/bindings-processors-interactions.md",
+          "checksum": "7b53e3fe635dbb95c7686a7026418707147c44c27fa6a1b172c4b79b13d2a56a",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-input-system/references/device-management-testing.md",
+          "checksum": "f085e4e2ecd7edc8a020aae42b84336583ae9b8479717a718db85c30b33cac6a",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-input-system/references/dots-input-advanced.md",
+          "checksum": "e25c4713264cfe97325d96829ad4a719e22f1cb0a26eb653019fbf362790de3e",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-input-system/references/dots-input-basics.md",
+          "checksum": "925f2621287970746acd2bb1ddaa1ce98266bcf14d008c780b13f76af7ed7bca",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-input-system/references/ui-debugging-onscreen.md",
+          "checksum": "32f473610e0b891f84971e52e3b55b9d341f886f50b08a489739781fa7710268",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-input-system/SKILL.md",
+          "checksum": "a60890c893e96d720a1cce0125efa3b90ced1838cd6fa10a03eb719a50639ed6",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-localization/references/api-and-examples.md",
+          "checksum": "eac85afb230c2372a5b853f5d613697c0e4bbba816bcc36be5f7fccfdfc1349b",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-localization/SKILL.md",
+          "checksum": "b9011876160ad0828c41782dad7b389e503200f7a086bf404b769a390d57919e",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/.unity-mcp-skill-sync",
+          "checksum": "f2842d64d8208a81d0b29fa7138abb0acf83636eebea505d5b18524a5535824f",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/error-recovery-guide.md",
+          "checksum": "ef8bb1c54b01fecfc537577d9547662af5847f0a1ea1e11a3470f06e58248663",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-batch-packages.md",
+          "checksum": "f85fd87d752adf92ac93c36ee11c678b8d47b6c2cf534404d7f5cd5f45a2cb8b",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-camera-graphics.md",
+          "checksum": "c554b123bf716055dfd5f118e72338424d4beb958f44ce9562eeaf3680487ed1",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-dots-physics-nav.md",
+          "checksum": "8d5605a67ff76b18323c5204888b366f480d430540eb05e975f3dc066fbf4ed0",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-editor-testing.md",
+          "checksum": "7b12b0926be86beacba277053cac1932e02f657d136873875fbd9b057b9ca68f",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-media-world.md",
+          "checksum": "92483015fe9130e217247e2bff739f44fcefe09d78c265135e87179e0acd141b",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-perf-ai-misc.md",
+          "checksum": "c5dad13946a38f42b268ac57029d155220df8657dc94175a102c98de81491c62",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-probuilder.md",
+          "checksum": "f709562694ad72006b5a2ee1ad091ceb3f04c8d31d616d082ce5c73e26ac34f3",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-scene-objects.md",
+          "checksum": "3aafc6f3fc934736d8a9a232cb50e38a40870c6ed46c5b65b813384b3bcbc77e",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-scripts-assets.md",
+          "checksum": "f08b99f8ec7dc2f02b767f00494f7b7e769ebe7929998630737d9b00a43ea3bd",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/tools-systems-code.md",
+          "checksum": "5ae9affa8bab802012e357fcc8f0a4aa7992fcfb2cb5dff4885208bb907cf974",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/workflow-assets-prefabs.md",
+          "checksum": "fded64b179a4d578b751305c50b5d6094fcbeee838c7ed77adb29cf663008ae3",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/workflow-batch-operations.md",
+          "checksum": "acb6c7bfa48d72fd5fdb79f30ed8bb2a2a8b9b9e0501d5298a63726f04aa2533",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/workflow-camera-probuilder.md",
+          "checksum": "f0a6400cc37beaa189ac2867ad6c1bdf263fc37757d3b530067b147e621f9c6b",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/workflow-scene-objects.md",
+          "checksum": "0f5f2843409ce7eab4681d3478d73b2e5c58b9492a21c9607433aff97065f0c3",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/workflow-script-lifecycle.md",
+          "checksum": "8dd98f2eb6f516cd0b71d01f43ff3ffa65b263d1813ff902d525f84eb6c8435e",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.030Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/workflow-testing.md",
+          "checksum": "398a765046975d3c58a2a3fd4b95811de796421ea021bf8f1f784395783ff75a",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/workflow-ui-advanced.md",
+          "checksum": "040cac1186029657cb5ce84df7d3cb1bb810eba01d5db8898eeffd35749671f2",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/references/workflow-ui-creation.md",
+          "checksum": "d2ac8a29f3cc3901f2318a938a6403f80fbf7e4699bf7ca3ab699556f49a425c",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-mcp-skill/SKILL.md",
+          "checksum": "9013d47f1d8631e2bf4e741004a0ffc59e3afbb27bad5b9a235d65d6c2603f79",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.029Z"
+        },
+        {
+          "path": "skills/unity-mcp-tool-creator/references/tool-templates.md",
+          "checksum": "c54e86c8a43d8bb3bef73819da73ed1094b3e85fd5e05f0e48bb03900c90428d",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-mcp-tool-creator/SKILL.md",
+          "checksum": "67fb9f78e5683e2b2f79d5f34dd003514b6ab9fb278894d35b07be7c05293a68",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-monobehaviour/references/coroutine-patterns.md",
+          "checksum": "4512e33aa94f055e9517e0c2f4b808a54e4c41c66b18dbde0f524f8b5b185b91",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-monobehaviour/SKILL.md",
+          "checksum": "6aaca852554a56b87d2216dad7c92d1361a756daf305b6e8fb1f3cb31f1f777d",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-pivot-hierarchy/references/use-cases-and-ecs.md",
+          "checksum": "3fa2eedbd970dfbf7f57e34ba0599d9c7e1b2950d5191073fe81f34ff29e4ce2",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-pivot-hierarchy/SKILL.md",
+          "checksum": "3ea239609755bca95f8e21e29c98fe387d0311e644d93fd2d8e3680abae6f116",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-save-system/references/save-patterns.md",
+          "checksum": "e4c5823ec0c68becd7840ae6fabaffa7d80effe3aa80345f6b2e1ecb73bdd90e",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-save-system/SKILL.md",
+          "checksum": "889cbb3c789e6295a3e1f23c72f5e2ad25ad8ceeb90ab768b5d215d35c1c15f8",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-scene-management/references/scene-patterns.md",
+          "checksum": "0d13fc1341c51a5d306b273926151a5d3810c52ebd5a6e6aec969d624f504934",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-scene-management/SKILL.md",
+          "checksum": "9e2172739799dc731991030ba569b5d2c352e3633514fd9a05eaef5b3a50ffa3",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-text-config/references/gotchas-guide.md",
+          "checksum": "a8d3d56792aa27a94b25905cc39e0af0e15fe4fd88a46065c9cb84794a25ddab",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "skills/unity-text-config/SKILL.md",
+          "checksum": "a89e02cebd935e40e6f517e095fdfa75e2d247ee9be8000b9d621faeaf81b2c7",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "t1k-activation-unity-base.json",
+          "checksum": "a0f5e2bb09c5d6dc0ab9ad79ea2754a66cf9696354cbebe4e5ef7677b92eeac1",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "t1k-activation-unity.json",
+          "checksum": "619f7375afac403e562e83ceb6de5df6f0c98d1b3506f1752b565c06c685121d",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "t1k-config-unity.json",
+          "checksum": "72b3036383bd31d5eeb3f49e559443055b19643420948d41aea865fe27c52caf",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "t1k-modules-keywords-theonekit-unity.json",
+          "checksum": "6cb1422244a92620e7de0261d6b72eb7e196be4c3e84c2f096b60bb6110a08bb",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "t1k-modules-keywords-unity.json",
+          "checksum": "67ec618dc654430f882a1b8cbbcff46df9ee358e56fecc26994c62f2665c9e22",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.031Z"
+        },
+        {
+          "path": "t1k-modules.json",
+          "checksum": "30e4096b5193430aa1f8818a9fa8e2ea7b829a9355d019bc660177db812b5862",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.032Z"
+        },
+        {
+          "path": "t1k-routing-unity.json",
+          "checksum": "cfd78e9b849d08c2da0fb1442762e23329a77f1fa21042fd6087bc27ec1113be",
+          "ownership": "user",
+          "installedVersion": "v1.9.0",
+          "installedAt": "2026-04-06T15:11:55.032Z"
+        }
+      ]
+    }
+  },
+  "scope": "local",
+  "name": "TheOneKit Unity",
+  "version": "v1.9.0",
+  "installedAt": "2026-04-06T15:11:55.035Z",
+  "userConfigFiles": [
+    ".gitignore",
+    ".repomixignore",
+    ".mcp.json",
+    ".gkignore",
+    ".t1k.json",
+    "CLAUDE.md"
+  ],
+  "schemaVersion": 3,
+  "installedModules": {
+    "unity-base": {
+      "version": "v1.9.0",
+      "kit": "theonekit-unity",
+      "repository": "The1Studio/theonekit-unity",
+      "installedAt": "2026-04-06T15:11:55.042Z"
+    }
+  }
+}

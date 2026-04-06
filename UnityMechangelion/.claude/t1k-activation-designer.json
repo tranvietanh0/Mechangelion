@@ -1,0 +1,60 @@
+{
+  "registryVersion": 1,
+  "priority": 50,
+  "sessionBaseline": [],
+  "keywords": {
+    "combat,damage,DPS,stats": [
+      "rpg-game-design",
+      "game-balance-tools"
+    ],
+    "economy,shop,currency,gacha": [
+      "game-economy-design",
+      "game-shop-offering"
+    ],
+    "inventory,items,grid,backpack": [
+      "game-shop-offering",
+      "game-synergy-combos"
+    ],
+    "level,arena,spawn,encounter": [
+      "game-level-design",
+      "game-procedural-generation"
+    ],
+    "roguelike,run,permadeath": [
+      "game-roguelike-design",
+      "game-procedural-generation"
+    ],
+    "turn-based,action economy": [
+      "game-turn-based-design"
+    ],
+    "feel,juice,feedback,shake": [
+      "game-feel-juice"
+    ],
+    "narrative,quest,dialogue": [
+      "game-narrative-design",
+      "game-quest-design"
+    ],
+    "UI,HUD,menu,wireframe": [
+      "game-ux-design",
+      "game-ui-wireframe",
+      "game-ui-animation"
+    ],
+    "color,palette,typography,visual": [
+      "game-visual-design"
+    ],
+    "mobile,session,retention": [
+      "game-mobile-design"
+    ],
+    "puzzle,match-3,polyomino": [
+      "puzzle-game-design"
+    ],
+    "world,faction,lore": [
+      "game-worldbuilding"
+    ]
+  },
+  "_origin": {
+    "kit": "theonekit-designer",
+    "repository": "The1Studio/theonekit-designer",
+    "module": null,
+    "protected": false
+  }
+}

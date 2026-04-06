@@ -1,0 +1,262 @@
+{
+  "registryVersion": 2,
+  "kitName": "theonekit-unity",
+  "modules": {
+    "unity-base": {
+      "description": "Core Unity skills: conventions, MonoBehaviour, scene management, input, addressables, save/load, localization, MCP tooling",
+      "required": true,
+      "dependencies": [],
+      "skills": [
+        "unity-code-conventions",
+        "unity-monobehaviour",
+        "unity-scene-management",
+        "unity-game-patterns",
+        "unity-pivot-hierarchy",
+        "unity-input-system",
+        "unity-addressables",
+        "unity-save-system",
+        "unity-localization",
+        "unity-text-config",
+        "unity-mcp-skill",
+        "unity-mcp-tool-creator",
+        "asset-hunter-pro"
+      ],
+      "activationFragment": "t1k-activation-unity-base.json"
+    },
+    "dots-core": {
+      "description": "DOTS/ECS fundamentals: entities, components, systems, jobs, burst, collections, serialization",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "dots-ecs-core",
+        "dots-architecture",
+        "dots-jobs-burst",
+        "dots-subscene",
+        "dots-enableable-components",
+        "dots-entity-command-buffer",
+        "dots-performance",
+        "zlinq",
+        "zstring",
+        "google-protobuf",
+        "memorypack"
+      ],
+      "activationFragment": "t1k-activation-dots-core.json"
+    },
+    "dots-combat": {
+      "description": "DOTS combat, RPG systems, physics, and puzzle mechanics",
+      "required": false,
+      "dependencies": [
+        "unity-base",
+        "dots-core"
+      ],
+      "skills": [
+        "dots-rpg",
+        "dots-physics",
+        "dots-puzzle"
+      ],
+      "activationFragment": "t1k-activation-dots-combat.json"
+    },
+    "dots-nav": {
+      "description": "DOTS navigation, pathfinding, avoidance and battlefield systems",
+      "required": false,
+      "dependencies": [
+        "unity-base",
+        "dots-core"
+      ],
+      "skills": [
+        "agents-navigation",
+        "dots-battlefield"
+      ],
+      "activationFragment": "t1k-activation-dots-nav.json"
+    },
+    "dots-ai": {
+      "description": "AI behavior trees, Behavior Designer Pro, formations and tactical packs",
+      "required": false,
+      "dependencies": [
+        "unity-base",
+        "dots-core"
+      ],
+      "skills": [
+        "behavior-designer-pro",
+        "bdp-tactical-pack",
+        "bdp-movement-pack",
+        "bdp-formations-pack"
+      ],
+      "activationFragment": "t1k-activation-dots-ai.json"
+    },
+    "rendering": {
+      "description": "Rendering pipeline (URP), shaders, VFX, lighting, terrain, perspectives, Synty assets",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "unity-urp",
+        "unity-shader-graph",
+        "unity-shadow-optimization",
+        "unity-light-baking",
+        "unity-terrain",
+        "unity-probuilder",
+        "dots-graphics",
+        "amplify-impostors",
+        "mk-toon-shader",
+        "synty-polygon-fantasy-rivals",
+        "synty-polygon-generic",
+        "synty-polygon-knights",
+        "unity-vfx-graph",
+        "unity-animation-vfx",
+        "unity-cinemachine",
+        "dots-perspective-framework",
+        "dots-perspective-2d-sideview",
+        "dots-perspective-2d-topdown",
+        "dots-perspective-3d",
+        "dots-perspective-isometric"
+      ],
+      "activationFragment": "t1k-activation-rendering.json"
+    },
+    "ui": {
+      "description": "UI systems: UGUI, UI Toolkit, mobile-responsive layouts",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "unity-ugui",
+        "unity-ui-toolkit",
+        "unity-mobile-ui"
+      ],
+      "activationFragment": "t1k-activation-ui.json"
+    },
+    "mobile": {
+      "description": "Mobile platform targeting: Android, iOS build settings and optimization",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "unity-mobile"
+      ],
+      "activationFragment": "t1k-activation-mobile.json"
+    },
+    "audio": {
+      "description": "Unity audio system: AudioSource, AudioMixer, music pooling",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "unity-audio"
+      ],
+      "activationFragment": "t1k-activation-audio.json"
+    },
+    "animation": {
+      "description": "Animation systems: Mecanim, Playables, Timeline, LitMotion tweening",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "unity-animation",
+        "litmotion"
+      ],
+      "activationFragment": "t1k-activation-animation.json"
+    },
+    "networking": {
+      "description": "Multiplayer and netcode systems",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "unity-netcode"
+      ],
+      "activationFragment": "t1k-activation-networking.json"
+    },
+    "testing": {
+      "description": "Test framework: DOTS unit testing, workflow, code coverage, runtime validation",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "dots-unit-testing",
+        "unity-testing-workflow",
+        "unity-code-coverage",
+        "dots-runtime-validator"
+      ],
+      "activationFragment": "t1k-activation-testing.json"
+    },
+    "editor": {
+      "description": "Editor tooling: scene tools, playtesting, balance, profiling, milestones, wiki, sync, inventory editor",
+      "required": false,
+      "dependencies": [
+        "unity-base"
+      ],
+      "skills": [
+        "t1k-scene",
+        "t1k-playtest",
+        "t1k-balance",
+        "t1k-profile",
+        "t1k-milestone",
+        "t1k-wiki",
+        "t1k-sync",
+        "unity-profiling",
+        "dots-inventory-grid"
+      ],
+      "activationFragment": "t1k-activation-editor.json"
+    }
+  },
+  "presets": {
+    "dots-rpg": {
+      "modules": [
+        "unity-base",
+        "dots-core",
+        "dots-combat",
+        "dots-nav",
+        "dots-ai",
+        "ui",
+        "rendering"
+      ],
+      "crossKitModules": [
+        "theonekit-designer:design-base",
+        "theonekit-designer:design-rpg",
+        "theonekit-designer:design-ux"
+      ]
+    },
+    "mobile": {
+      "modules": [
+        "unity-base",
+        "ui",
+        "mobile",
+        "audio",
+        "animation"
+      ],
+      "crossKitModules": [
+        "theonekit-designer:design-base",
+        "theonekit-designer:design-ux"
+      ]
+    },
+    "shooter": {
+      "modules": [
+        "unity-base",
+        "dots-core",
+        "dots-combat",
+        "dots-nav",
+        "rendering",
+        "ui"
+      ],
+      "crossKitModules": [
+        "theonekit-designer:design-base"
+      ]
+    },
+    "full": "*"
+  },
+  "_origin": {
+    "kit": "theonekit-unity",
+    "repository": "The1Studio/theonekit-unity",
+    "module": null,
+    "protected": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "registryVersion": 1,
+  "kitName": "theonekit-unity",
+  "priority": 90,
+  "note": "Per-module keyword mappings live in .claude/modules/{module}/t1k-activation-{module}.json. This file retains only the kit-wide session baseline.",
+  "sessionBaseline": [
+    "dots-ecs-core",
+    "dots-architecture",
+    "unity-code-conventions",
+    "unity-mcp-skill"
+  ],
+  "_origin": {
+    "kit": "theonekit-unity",
+    "repository": "The1Studio/theonekit-unity",
+    "module": null,
+    "protected": false
+  }
+}

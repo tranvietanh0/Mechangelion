@@ -1,0 +1,13 @@
+{
+  "module": "design-base",
+  "kit": "theonekit-designer",
+  "generatedBy": "release-action",
+  "generatedAt": "2026-03-28T11:53:37.562Z",
+  "files": [
+    "skills/game-design-document",
+    "skills/game-feel-juice",
+    "skills/game-balance-tools",
+    "skills/game-mobile-design",
+    "t1k-activation-design-base.json"
+  ]
+}
