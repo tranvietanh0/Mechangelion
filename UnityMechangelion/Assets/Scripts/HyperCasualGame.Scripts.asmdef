@@ -14,7 +14,8 @@
         "UniT.Extensions",
         "Unity.ResourceManager",
         "GameFoundationCore.AssetLibrary",
-        "Unity.Addressables"
+        "Unity.Addressables",
+        "GameFoundationCore.Utilities"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
