@@ -1,0 +1,123 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.Serialization.Formatters;
+using System;
+using UnityEngine;
+
+public class Hovl_Laser : MonoBehaviour
+{
+    public int damageOverTime = 30;
+
+    public GameObject HitEffect;
+    public float HitOffset = 0;
+    public bool useLaserRotation = false;
+
+    public float MaxLength;
+    private LineRenderer Laser;
+
+    public float MainTextureLength = 1f;
+    public float NoiseTextureLength = 1f;
+    private Vector4 Length = new Vector4(1,1,1,1);
+    //private Vector4 LaserSpeed = new Vector4(0, 0, 0, 0); {DISABLED AFTER UPDATE}
+    //private Vector4 LaserStartSpeed; {DISABLED AFTER UPDATE}
+    //One activation per shoot
+    private bool LaserSaver = false;
+    private bool UpdateSaver = false;
+
+    private ParticleSystem[] Effects;
+    private ParticleSystem[] Hit;
+
+    void Start ()
+    {
+        //Get LineRender and ParticleSystem components from current prefab;  
+        this.Laser   = this.GetComponent<LineRenderer>();
+        this.Effects = this.GetComponentsInChildren<ParticleSystem>();
+        this.Hit     = this.HitEffect.GetComponentsInChildren<ParticleSystem>();
+        //if (Laser.material.HasProperty("_SpeedMainTexUVNoiseZW")) LaserStartSpeed = Laser.material.GetVector("_SpeedMainTexUVNoiseZW");
+        //Save [1] and [3] textures speed
+        //{ DISABLED AFTER UPDATE}
+        //LaserSpeed = LaserStartSpeed;
+    }
+
+    void Update()
+    {
+        //if (Laser.material.HasProperty("_SpeedMainTexUVNoiseZW")) Laser.material.SetVector("_SpeedMainTexUVNoiseZW", LaserSpeed);
+        //SetVector("_TilingMainTexUVNoiseZW", Length); - old code, _TilingMainTexUVNoiseZW no more exist
+        this.Laser.material.SetTextureScale("_MainTex", new Vector2(this.Length[0], this.Length[1]));
+        this.Laser.material.SetTextureScale("_Noise", new Vector2(this.Length[2], this.Length[3]));
+        //To set LineRender position
+        if (this.Laser != null && this.UpdateSaver == false)
+        {
+            this.Laser.SetPosition(0, this.transform.position);
+            RaycastHit hit; //DELETE THIS IF YOU WANT USE LASERS IN 2D
+            //ADD THIS IF YOU WANNT TO USE LASERS IN 2D: RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.forward, MaxLength);       
+            if (Physics.Raycast(this.transform.position, this.transform.TransformDirection(Vector3.forward), out hit, this.MaxLength))//CHANGE THIS IF YOU WANT TO USE LASERRS IN 2D: if (hit.collider != null)
+            {
+                //End laser position if collides with object
+                this.Laser.SetPosition(1, hit.point);
+
+                this.HitEffect.transform.position = hit.point + hit.normal * this.HitOffset;
+                if (this.useLaserRotation)
+                    this.HitEffect.transform.rotation = this.transform.rotation;
+                else
+                    this.HitEffect.transform.LookAt(hit.point + hit.normal);
+
+                foreach (var AllPs in this.Effects)
+                {
+                    if (!AllPs.isPlaying) AllPs.Play();
+                }
+                //Texture tiling
+                this.Length[0] = this.MainTextureLength * (Vector3.Distance(this.transform.position, hit.point));
+                this.Length[2] = this.NoiseTextureLength * (Vector3.Distance(this.transform.position, hit.point));
+                //Texture speed balancer {DISABLED AFTER UPDATE}
+                //LaserSpeed[0] = (LaserStartSpeed[0] * 4) / (Vector3.Distance(transform.position, hit.point));
+                //LaserSpeed[2] = (LaserStartSpeed[2] * 4) / (Vector3.Distance(transform.position, hit.point));
+                //Destroy(hit.transform.gameObject); // destroy the object hit
+                //hit.collider.SendMessage("SomeMethod"); // example
+                /*if (hit.collider.tag == "Enemy")
+                {
+                    hit.collider.GetComponent<HittedObject>().TakeDamage(damageOverTime * Time.deltaTime);
+                }*/
+            }
+            else
+            {
+                //End laser position if doesn't collide with object
+                var EndPos = this.transform.position + this.transform.forward * this.MaxLength;
+                this.Laser.SetPosition(1, EndPos);
+                this.HitEffect.transform.position = EndPos;
+                foreach (var AllPs in this.Hit)
+                {
+                    if (AllPs.isPlaying) AllPs.Stop();
+                }
+                //Texture tiling
+                this.Length[0] = this.MainTextureLength * (Vector3.Distance(this.transform.position, EndPos));
+                this.Length[2] = this.NoiseTextureLength * (Vector3.Distance(this.transform.position, EndPos));
+                //LaserSpeed[0] = (LaserStartSpeed[0] * 4) / (Vector3.Distance(transform.position, EndPos)); {DISABLED AFTER UPDATE}
+                //LaserSpeed[2] = (LaserStartSpeed[2] * 4) / (Vector3.Distance(transform.position, EndPos)); {DISABLED AFTER UPDATE}
+            }
+            //Insurance against the appearance of a laser in the center of coordinates!
+            if (this.Laser.enabled == false && this.LaserSaver == false)
+            {
+                this.LaserSaver = true;
+                this.Laser.enabled = true;
+            }
+        }  
+    }
+
+    public void DisablePrepare()
+    {
+        if (this.Laser != null)
+        {
+            this.Laser.enabled = false;
+        }
+        this.UpdateSaver = true;
+        //Effects can = null in multiply shooting
+        if (this.Effects != null)
+        {
+            foreach (var AllPs in this.Effects)
+            {
+                if (AllPs.isPlaying) AllPs.Stop();
+            }
+        }
+    }
+}

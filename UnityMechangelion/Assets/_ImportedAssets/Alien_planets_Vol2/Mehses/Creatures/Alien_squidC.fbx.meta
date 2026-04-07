@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: a80219570389f3748a14fc708efeb2f7
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Alien_squid_bone026
+  - first:
+      1: 100002
+    second: Alien_squid_bone027
+  - first:
+      1: 100004
+    second: Alien_squid_bone028
+  - first:
+      1: 100006
+    second: Alien_squid_bone029
+  - first:
+      1: 100008
+    second: Alien_squid_bone030
+  - first:
+      1: 100010
+    second: Alien_squid_bone031
+  - first:
+      1: 100012
+    second: Alien_squid_bone032
+  - first:
+      1: 100014
+    second: Alien_squid_bone033
+  - first:
+      1: 100016
+    second: Alien_squid_bone034
+  - first:
+      1: 100018
+    second: Alien_squid_bone035
+  - first:
+      1: 100020
+    second: Alien_squid_bone036
+  - first:
+      1: 100022
+    second: Alien_squid_bone037
+  - first:
+      1: 100024
+    second: Alien_squid_bone038
+  - first:
+      1: 100026
+    second: //RootNode
+  - first:
+      1: 100028
+    second: Alien_squidC
+  - first:
+      4: 400000
+    second: Alien_squid_bone026
+  - first:
+      4: 400002
+    second: Alien_squid_bone027
+  - first:
+      4: 400004
+    second: Alien_squid_bone028
+  - first:
+      4: 400006
+    second: Alien_squid_bone029
+  - first:
+      4: 400008
+    second: Alien_squid_bone030
+  - first:
+      4: 400010
+    second: Alien_squid_bone031
+  - first:
+      4: 400012
+    second: Alien_squid_bone032
+  - first:
+      4: 400014
+    second: Alien_squid_bone033
+  - first:
+      4: 400016
+    second: Alien_squid_bone034
+  - first:
+      4: 400018
+    second: Alien_squid_bone035
+  - first:
+      4: 400020
+    second: Alien_squid_bone036
+  - first:
+      4: 400022
+    second: Alien_squid_bone037
+  - first:
+      4: 400024
+    second: Alien_squid_bone038
+  - first:
+      4: 400026
+    second: //RootNode
+  - first:
+      4: 400028
+    second: Alien_squidC
+  - first:
+      43: 4300000
+    second: Alien_squidC
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Alien_squidC
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien_squid_bone026
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone027
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone027/Alien_squid_bone028
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone027/Alien_squid_bone028/Alien_squid_bone029
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone030
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone030/Alien_squid_bone031
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone030/Alien_squid_bone031/Alien_squid_bone032
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone034
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone034/Alien_squid_bone035
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone034/Alien_squid_bone035/Alien_squid_bone033
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone037
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone037/Alien_squid_bone036
+        weight: 1
+      - path: Alien_squid_bone026/Alien_squid_bone037/Alien_squid_bone036/Alien_squid_bone038
+        weight: 1
+      - path: Alien_squidC
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
